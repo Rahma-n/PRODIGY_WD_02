@@ -1,0 +1,128 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.lap-list {
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  color: burlywood;
+  justify-content: end;
+  align-items: end;
+  font-size: 40px;
+  display: flex;
+  margin-right: 150px;
+  margin-bottom: 10px;
+}
+#lap-list {
+  text-align: right;
+  font-size: 20px;
+}
+body {
+  background-color: #631014  ; 
+  background-image: url(../asserts/img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  color: white !important;
+
+  text-decoration: none;
+  padding: 20px;
+}
+a {
+  color: burlywood !important;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 70px;
+
+  text-align: justify;
+  justify-content: space-between;
+  gap: 300px;
+}
+a:hover {
+  box-shadow: rgba(255, 255, 255, 0.25);
+}
+
+.container {
+  background-color: burlywood;
+  width: 40%;
+  min-width: 500px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 20px 0;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.338);
+}
+
+.timer-display {
+  position: relative;
+  width: 92%;
+  background: blanchedalmond;
+  left: 4%;
+  font-family: "Roboto mono", monospace;
+  color: rgb(18, 18, 18);
+  font-size: 30px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(65, 5, 145, 0.25);
+}
+
+.buttons {
+  width: 90%;
+  margin: 60px auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.buttons button {
+  width: 120px;
+  height: 45px;
+  background-color: rgb(138, 144, 138);
+  color: rgb(255, 255, 255);
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.buttons button:nth-last-child(2) {
+  background-color: rgb(5, 41, 50);
+}
+
+.buttons button:nth-last-child(1) {
+  background-color: rgb(5, 3, 1);
+}
+
+.buttons button:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+#pause-timer {
+  background-color: rgb(77, 9, 14);
+}
+button:hover.green {
+  color: rgb(12, 12, 12);
+}
+button:hover.pink {
+  color: darkkhaki;
+}
+button:hover.black {
+  color: white;
+}
